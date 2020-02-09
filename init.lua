@@ -5,7 +5,7 @@ local hud_position = {
 	y= tonumber(minetest.settings:get("skygazer_hud_y")) or 0.3,
 }
 local hud_color = tonumber("0x" .. (minetest.settings:get("skygazer_hud_color") or "FFFF00")) or 0xFFFF00
-local hud_timeout = tonumber(minetest.settings:get("skygazer_hud_timeout") or 60
+local hud_timeout = tonumber(minetest.settings:get("skygazer_hud_timeout")) or 60
 
 -- 72 = 20min, 360 = 4min, 1 = 24hour, 0 = day/night/whatever stays unchanged.
 local time_speed = tonumber(minetest.settings:get("time_speed")) or 72
