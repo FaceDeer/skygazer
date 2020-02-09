@@ -1,0 +1,4 @@
+skygazer_hud_x (On-screen x location of the skygazer HUD) float 0.9
+skygazer_hud_y (On-screen y location of the skygazer HUD) float 0.3
+skygazer_hud_color (Color of the skygazer HUD text) string FFFF00
+skygazer_hud_timeout (Seconds the HUD remains after losing sight of the sky) int 60
